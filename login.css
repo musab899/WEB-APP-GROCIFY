@@ -1,0 +1,102 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#f4f4f4;
+}
+
+/* MAIN BOX */
+
+#main{
+width:350px;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+/* HEADING */
+
+#heading p{
+font-size:24px;
+font-weight:bold;
+margin-bottom:20px;
+color:#2c7a2c;
+text-transform:capitalize;
+}
+
+/* INPUTS */
+
+#inputs input{
+width:100%;
+padding:10px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:5px;
+outline:none;
+font-size:14px;
+}
+
+#inputs input:focus{
+border-color:green;
+}
+
+/* BUTTON */
+
+#inputs button{
+width:100%;
+padding:10px;
+background:green;
+border:none;
+color:white;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
+transition:0.3s;
+}
+
+#inputs button:hover{
+background:#0f6d25;
+}
+
+/* HR SECTION */
+
+#hr{
+display:flex;
+align-items:center;
+margin:20px 0;
+}
+
+#hr hr{
+flex:1;
+border:0;
+height:1px;
+background:#ccc;
+}
+
+#hr p{
+margin:0 10px;
+color:#777;
+}
+
+/* LOGIN LINK */
+
+#alter a{
+text-decoration:none;
+color:green;
+font-weight:bold;
+text-transform: capitalize;
+}
+
+#alter a:hover{
+text-decoration:underline;
+}
